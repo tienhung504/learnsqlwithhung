@@ -33,5 +33,5 @@ where r>l
 -- rankafter.ranking AS after_ranking
 -- FROM rankbefore JOIN rankafter
 -- ON rankbefore.country = rankafter.country
--- WHERE rankafter.ranking > rankbefore.ranking
+-- WHERE rankbefore.ranking > rankafter.ranking
 
