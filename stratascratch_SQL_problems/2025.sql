@@ -1,5 +1,5 @@
 WITH loyal_clients AS (
-    select user_id  from fact_events
+    select user_id, client_id from fact_events
     GROUP BY user_id
     HAVING COUNT(DISTINCT client_id) = 1)
     
